@@ -1,0 +1,204 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://th.bing.com/th/id/R.9758f77efe7d4750978fee8b2f1f2ea4?rik=tuEPwNr0gUKe7Q&riu=http%3a%2f%2fimage.tmdb.org%2ft%2fp%2foriginal%2fycnDQVqHerSaQWQkemHcXOPOnA0.jpg&ehk=jOaypc0VVWZuZDvlfHEyn%2fzsQPgTUDBmtBirmyLm3To%3d&risl=&pid=ImgRaw&r=0);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#nav{
+    width: 60%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    margin-top: 13px;
+    justify-content: space-evenly;
+}
+#line{
+    position: absolute;
+    width: 60px;
+    top: 32px;
+    left: 5%;
+    height: 4px;
+    background-color: white;
+}
+#line1{
+    position: absolute;
+    width: 60px;
+    top: 42px;
+    left: 5%;
+    height: 4px;
+    background-color: white;
+}
+#line2{
+    position: absolute;
+    width: 1.5px;
+    height: 22px;
+    top: 0%;
+    background-color: rgba(255, 255, 255, 0.832);
+    left: 6.8%;
+}
+
+#line3{
+    position: absolute;
+    width: 1.5px;
+    height: 60%;
+    top: 8%;
+    background-color: rgba(255, 255, 255, 0.832);
+    left: 6.8%;
+}
+#line4{
+    position: absolute;
+    width: 1.5px;
+    height: 15%;
+    bottom: 0%;
+    left: 6.8%;
+    background-color: rgba(255, 255, 255, 0.247);
+}
+
+#circle{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    top: 70%;
+    left: 6.4%;
+}
+#circle1{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(240, 248, 255, 0.603);
+    top: 74%;
+    left: 6.4%;
+}
+#circle2{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(240, 248, 255, 0.39);
+    top: 78%;
+    left: 6.4%;
+}
+#circle3{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(240, 248, 255, 0.225);
+    top: 82%;
+    left: 6.4%;
+}
+#nav span{
+    left: 8%;
+    margin-left: 130px;
+}
+#nav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+#icon{
+    position: absolute;
+    display: flex;
+    gap: 55px;
+    right: 5%;
+    z-index: 9999;
+}
+#nav i{
+    color: white;
+    font-size: 25px;
+}
+
+#text{
+    position: absolute;
+    width: 50%;
+    height: 40%;
+    left: 15%;
+    top: 30%;
+    color: white;
+}
+#text h1{
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#text p{
+    font-size:18px;
+    margin-bottom: 10px;
+}
+
+#text button{
+    padding: 7px 45px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+#btn{
+    position: absolute;
+    top:65.5% ;
+    left: 28%;
+}
+
+#btn button{
+    background-color: transparent;
+    color: white;
+    border: 1.5px solid white;
+}
+#text1{
+    position: absolute;
+    top: 47%;
+    right: 5%;
+    color: white;
+    text-align: center;
+}
+#text2{
+    position: absolute;
+    top: 61%;
+    right: 5%;
+    color: white;
+    text-align: center;
+}
+
+#text3{
+    position: absolute;
+    top: 75%;
+    right: 5%;
+    color: white;
+    text-align: center;
+}
+#text4{
+    position: absolute;
+    top: 87%;
+    right: 5%;
+    color: white;
+    text-align: center;
+}
+
+#img h4{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
